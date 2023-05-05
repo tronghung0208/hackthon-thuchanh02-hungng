@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+.Header {
+  display: flex;
+  background-color: #f9452c;
+  width: 100%;
+  height: 100px;
+  justify-content: space-around;
+  color: white;
+  align-items: center;
+}
+.Header-text input {
+  width: 230px;
+  padding-right: 10px;
+}
+.header-div {
+  display: flex;
+  width: 3px;
+  padding-left: 2px;
+}
+.header-input {
+  width: 2px;
+  height: 3px;
+}
+.header-input input {
+  width: 20px;
+}
+.header-i {
+  color: #f9452c;
+}
+.content {
+  display: flex;
+  background-color: #f5f5f5;
+}
+.content .box-sanpham {
+  background-color: white;
+  margin: 10px 10px 10px 50px;
+  padding: 5px;
+}
+.content .box-sanpham .danhmuc {
+  color: #f9452c;
+}
+.content .box-1 {
+  margin: 10px;
+  background-color: white;
+}
+.content .box-1 img {
+  width: 180px;
+  height: 300px;
+}
+.box-1 .box1-giatien {
+  color: #f9452c;
+  text-align: center;
+}
+.box-1 .box1-giatien i {
+  padding-left: 5px;
+  margin: 5px 0;
+}
+.box1-regular {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+.box1-regular i {
+  color: blue;
+}
+.box1-apple {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  margin: 5px;
+  color: grey;
+}
+.box2-hanoi {
+  justify-content: flex-end;
+  margin: 5px;
+}
+.box-1 h4 {
+  font-size: 15px;
+  padding-left: 5px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f5f5f5;
+  padding: 20px 100px 20px 80px;
+  border-top: #f9452c solid 3px;
+  border-bottom: black solid 3px;
+}
+.footer-p {
+  color: grey;
+  font-size: 12px;
+}
+.footer-p p {
+  padding: 3px;
+}
+.Quochai p {
+  color: #f9452c;
+  padding: 3px;
+}
